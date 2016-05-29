@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Added	a link to Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
+	<!--Added a link to Asset Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+		
+		<div class="jumbotron">
+			<div class="container">
+				<h1>ScoreBoard Match Game!!</h1>
+			</div>
+		</div>
+		
+		<div id="intro">
+			<p>You will be given a random number at the start of the game.
+			</p>
+			<p>
+			There are Four Sports Logo's below. By clicking on one of  you will add a specific amount of points to your total score.
+			</p>
+			<p>
+			You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+			</p>
+			<p>
+			The value of each sport is hidden from you until you click on it.
+			</p>
+			<p>
+			Each time the game starts, the game will change the value of each one.</p>
+		</div>
+
+		<div id="computerScore">
+			<span id="compNum">0</span>
+		</div>
+
+		<div id="gameCounter">
+			<span id="win">Wins: <span id="winCount">0</span></span>
+			<span id="loss">Losses: <span id="lossCount">0</span></span>
+			<span id="message"></span>
+		</div>
+
+		<div id="sports">
+			<button id="buttonBaseball"><img src="assets/images/Baseball.svg.png" alt="baseball"></button>
+			<button id="buttonFootball"><img src="assets/images/football.jpg" alt="football"></button>
+			<button id="buttonBasketball"><img src="assets/images/basketball-309539_640.png" alt="basketball"></button>
+			<button id="buttonHockey"><img src="assets/images/ice_hockey_puck_classic_round_sticker-r4f697b30be03427eac39b2f029412abf_v9waf_8byvr_324.jpg" alt="hockey"></button>
+		</div>
+
+		<div id="scoreCount">
+			Your total score is:
+			<span id="scoreNum">
+				0
+			</span>
+		</div>
+
+
+	</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"> </script>
+
+</body>
+</html>

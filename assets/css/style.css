@@ -1,0 +1,46 @@
+body{
+	background-image: url('../images/baseball-field-background-wallpaper-4.jpg') 
+}
+.container{
+	color: #329BEE;
+	text-align: center;
+}
+
+#intro{
+	color: white;
+}
+p{
+	color: white;
+	font-size: 15px;
+}
+#compNum{
+	color: white;
+	font-size: 15px;
+}
+#win{
+	color: white;
+	font-size: 15px;
+}
+
+#loss{
+	color: white;
+	font-size: 15px;
+}
+#message{
+	color: white;
+	font-size: 15px;
+}
+img{
+	width: 150px;
+	border: 2px solid #329BEE;
+	
+}
+#scoreCount{
+	color: white;
+	font-size: 15px; 
+}
+
+#scoreCount{
+	color:white;
+	font-size: 15px;
+}
