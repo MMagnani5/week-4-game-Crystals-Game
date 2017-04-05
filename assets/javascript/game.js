@@ -1,7 +1,11 @@
 // Audio file
 var audio = new Audio('assets/audio/Baseball Tonight.mp3');
+     function playAudio() {
     audio.play();
-
+   }
+  function pauseAudio() {
+    audio.pause();
+   }
 
 	//Variables
 var computerNumber = 0;
